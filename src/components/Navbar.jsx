@@ -37,6 +37,11 @@ export const Navbar = () => {
                 Movies
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/teams">
+                Ipl Teams
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

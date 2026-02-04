@@ -18,6 +18,8 @@ import { Navbar } from "./components/Navbar";
 import { HomeComponent } from "./components/HomeComponent";
 import { ErrorNotFound } from "./components/ErrorNotFound";
 import { Watch } from "./components/Watch";
+import TeamDetail from "./components/TeamDetail";
+import Teams from "./components/Teams";
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
         <Route path="/watch/:name" element={<Watch />}></Route>
         <Route path="/" element = {<HomeComponent/>}></Route>
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
+        <Route path="/teamdetail/:name" element={<TeamDetail />}></Route>
+        <Route path="/teams" element = {<Teams/>}></Route>
+        
 
       </Routes>
     </div>
