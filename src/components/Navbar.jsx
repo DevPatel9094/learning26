@@ -39,9 +39,8 @@ export const Navbar = () => {
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/teams">
-                Ipl Teams
+                IplTeams
               </Link>
-              
             </li>
             <li>
                <Link class="nav-link" to="/fundemo1">
@@ -64,13 +63,43 @@ export const Navbar = () => {
               </Link>
             </li>
              <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo1">
+                inputdemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo2">
+                inputdemo2
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo3">
+                inputdemo3
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/dropdown">
+                Dropdown
+              </Link>
+            </li>
+               <li class="nav-item">
               <Link class="nav-link" to="/formdemo1">
-                formdemo1
+                FormDemo1
               </Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/formdemo2">
-                formdemo2
+                FormDemo2
+              </Link>
+            </li>
+                     <li class="nav-item">
+              <Link class="nav-link" to="/formdemo3">
+                FormDemo3
+              </Link>
+            </li>
+                     <li class="nav-item">
+              <Link class="nav-link" to="/formdemo4">
+                FormDemo4
               </Link>
             </li>
           </ul>

@@ -24,8 +24,15 @@ import { UseStateDemo1 } from "./components/UseStateDemo1";
 import { FunctionDemo1 } from "./components/FunctionDemo1";
 import { UseStateDemo2 } from "./components/UseStateDemo2";
 import { UseStateDemo3 } from "./components/UseStateDemo3";
-import  FormDemo1  from "./components/FormDemo1";
-import  FormDemo2  from "./components/tasks/FormDemo2";
+import InputDemo1  from "./components/InputDemo1";
+import InputDemo2  from "./components/tasks/InputDemo2";
+import InputDemo3 from "./components/tasks/InputDemo3";
+import Dropdown from "./components/tasks/DropDown";
+import FormDemo1 from "./components/Forms/FormDemo1";
+import FormDemo2 from "./components/Forms/FormDemo2";
+import FormDemo3 from "./components/Forms/FormDemo3";
+import FormDemo4 from "./components/Forms/FormDemo4";
+
 
 
 function App() {
@@ -37,17 +44,22 @@ function App() {
         <Route path="/netflixmovies" element={<NetflixMovies />}></Route>
         <Route path="/netflixshows" element={<NetflixShows />}></Route>
         <Route path="/watch/:name" element={<Watch />}></Route>
-            <Route path="/usestatedemo1" element ={<UseStateDemo1/>}></Route>
+        <Route path="/usestatedemo1" element ={<UseStateDemo1/>}></Route>
         <Route path="/usestatedemo2" element ={<UseStateDemo2/>}></Route>
         <Route path="/usestatedemo3" element ={<UseStateDemo3/>}></Route>
         <Route path="/fundemo1" element ={<FunctionDemo1/>}></Route>
         <Route path="/" element = {<HomeComponent/>}></Route>
-        <Route path="/*" element = {<ErrorNotFound/>}></Route>
         <Route path="/teamdetail/:name" element={<TeamDetail />}></Route>
         <Route path="/teams" element = {<Teams/>}></Route>
-        <Route path="/formdemo1" element={<FormDemo1/>}></Route>
-        <Route path="/formdemo2" element={<FormDemo2/>}></Route>
-
+        <Route path="/inputdemo1" element={<InputDemo1/>}></Route>
+        <Route path="/inputdemo2" element={<InputDemo2/>}></Route>
+        <Route path="/inputdemo3" element={<InputDemo3 />}></Route>
+        <Route path="/dropdown" element={<Dropdown/>}></Route>
+        <Route path="/formdemo1" element={<FormDemo1 />}></Route>
+        <Route path="/formdemo2" element={<FormDemo2 />}></Route>
+        <Route path="/formdemo3" element={<FormDemo3/>}></Route>
+        <Route path="/formdemo4" element={<FormDemo4/>}></Route>
+         <Route path="/*" element = {<ErrorNotFound/>}></Route>
       </Routes>
     </div>
   );
