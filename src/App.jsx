@@ -32,6 +32,8 @@ import FormDemo1 from "./components/Forms/FormDemo1";
 import FormDemo2 from "./components/Forms/FormDemo2";
 import FormDemo3 from "./components/Forms/FormDemo3";
 import FormDemo4 from "./components/Forms/FormDemo4";
+import FormValidationDemo1 from "./components/Forms/FormValidationDemo1";
+import FormValidationDemo2 from "./components/Forms/FormValidationDemo2";
 
 
 
@@ -48,7 +50,6 @@ function App() {
         <Route path="/usestatedemo2" element ={<UseStateDemo2/>}></Route>
         <Route path="/usestatedemo3" element ={<UseStateDemo3/>}></Route>
         <Route path="/fundemo1" element ={<FunctionDemo1/>}></Route>
-        <Route path="/" element = {<HomeComponent/>}></Route>
         <Route path="/teamdetail/:name" element={<TeamDetail />}></Route>
         <Route path="/teams" element = {<Teams/>}></Route>
         <Route path="/inputdemo1" element={<InputDemo1/>}></Route>
@@ -59,7 +60,10 @@ function App() {
         <Route path="/formdemo2" element={<FormDemo2 />}></Route>
         <Route path="/formdemo3" element={<FormDemo3/>}></Route>
         <Route path="/formdemo4" element={<FormDemo4/>}></Route>
-         <Route path="/*" element = {<ErrorNotFound/>}></Route>
+        <Route path="/formvalidationdemo1" element={<FormValidationDemo1/>}></Route>
+        <Route path="/formvalidationdemo2" element={<FormValidationDemo2/>}></Route>
+        <Route path="/" element = {<HomeComponent/>}></Route>
+        <Route path="/*" element = {<ErrorNotFound/>}></Route>
       </Routes>
     </div>
   );
