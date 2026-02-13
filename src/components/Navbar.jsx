@@ -71,14 +71,17 @@ export const Navbar = () => {
                  inputdemo3
                 </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/students">
-                Students
-              </Link>
-              <Link class="nav-link" to="/teachers">
-                Teachers
-              </Link>
-            </li>
+             <li class="nav-item">
+                <Link class="nav-link" to="/employees">
+                 Employees
+                </Link>
+                <Link class="nav-link" to="/students">
+                 Students
+                </Link>
+                <Link class="nav-link" to="/teachers">
+                 Teachers
+                </Link>
+             </li>
             <li class="nav-item">
                 <Link class="nav-link" to="/dropdown">
                  Dropdown

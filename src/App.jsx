@@ -29,6 +29,7 @@ import { UseStateDemo3 } from "./components/UseStateDemo3";
 import InputDemo1  from "./components/InputDemo1";
 import InputDemo2  from "./components/tasks/InputDemo2";
 import InputDemo3 from "./components/tasks/InputDemo3";
+import Employees from "./components/Employees";
 import Students from "./components/tasks/Students";
 import Teachers from "./components/tasks/Teachers";
 import Dropdown from "./components/tasks/DropDown";
@@ -61,6 +62,7 @@ function App() {
         <Route path="/inputdemo1" element={<InputDemo1/>}></Route>
         <Route path="/inputdemo2" element={<InputDemo2/>}></Route>
         <Route path="/inputdemo3" element={<InputDemo3 />}></Route>
+        <Route path="/employees" element={<Employees />} />
          <Route path="/students" element={<Students />}></Route>
         <Route path="/teachers" element={<Teachers />}></Route>
         <Route path="/dropdown" element={<Dropdown/>}></Route>
