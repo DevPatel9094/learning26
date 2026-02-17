@@ -117,6 +117,17 @@ export const Navbar = () => {
                 comparepassword
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/apidemo1">
+                ApiDemo1
+              </Link>
+              <Link class="nav-link" to="/apidemo2">
+                ApiDemo2
+              </Link>
+              <Link class="nav-link" to="/apidemo3">
+                ApiDemo3
+              </Link>
+            </li> 
           </ul>
         </div>
       </nav>
