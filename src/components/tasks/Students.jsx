@@ -3,9 +3,9 @@ import Table from './Table';
 
 export default function Students() {
     let students = [
-        {rollno:1, name:"Umang", age:22},
-        {rollno:2, name:"Xyz", age:21},
-        {rollno:3, name:"Abc", age:22}
+        {rollno:1, name:"Dev", age:22},
+        {rollno:2, name:"Harsh", age:21},
+        {rollno:3, name:"Yash", age:22}
     ];
   return (
     <div style={{textAlign:"center"}}>

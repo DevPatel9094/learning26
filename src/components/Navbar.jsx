@@ -109,6 +109,14 @@ export const Navbar = () => {
                  formvalidationdemo2
                 </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/passvalidation">
+                passvalidation
+              </Link>
+              <Link class="nav-link" to="/comparepassword">
+                comparepassword
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
