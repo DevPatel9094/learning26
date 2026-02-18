@@ -46,7 +46,8 @@ import ApiDemo2 from "./components/APIs/ApiDemo2";
 import ApiDemo3 from "./components/APIs/ApiDemo3";
 import OmdbApi from "./components/APIs/OmdbApi";
 import MovieDetail from "./components/APIs/MovieDetail";
-
+import PostApiDemo1 from "./components/APIs/PostApiDemo1";
+import PostApiDemo2 from "./components/APIs/PostApiDemo2";
 
 function App() {
   return (
@@ -85,6 +86,8 @@ function App() {
         <Route path="/apidemo3" element={<ApiDemo3/>}></Route>
         <Route path="/omdbapi" element={<OmdbApi/>}></Route>
         <Route path="/moviedetail/:imdbID" element={<MovieDetail/>}></Route>
+        <Route path="/postapidemo1" element={<PostApiDemo1/>}></Route>
+        <Route path="/postapidemo2" element={<PostApiDemo2/>}></Route>
         
         
         <Route path="/" element = {<HomeComponent/>}></Route>

@@ -133,6 +133,14 @@ export const Navbar = () => {
                 OmdbApi
               </Link>
             </li>
+             <li class="nav-item">
+              <Link class="nav-link" to="/postapidemo1">
+                PostApiDemo1
+              </Link>
+              <Link class="nav-link" to="/postapidemo2">
+                PostApiDemo2
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
